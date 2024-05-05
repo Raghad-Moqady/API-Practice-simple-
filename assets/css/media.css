@@ -1,0 +1,56 @@
+
+@media (max-width:991px){
+.nav-item{
+    width: fit-content;
+}
+.testimonials .client p {
+    margin-bottom: 0;
+ }
+}
+
+@media(max-width:768px){
+.about .numbers .count{
+    border: none !important;
+}
+.download-my-resume .brands{
+    justify-items: center;
+}
+.download-my-resume .brands .brand1 {
+        margin-right: 50px;
+        margin-left: 16px;
+}
+
+.download-my-resume .download{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.download-my-resume .download h2{
+text-align: center;
+}
+
+}
+ 
+@media (max-width:568px){
+    header{
+        background-position-x: -235px;
+    }
+    .header-content{
+        align-items: start !important;
+    }
+    .header-content .icons{
+        justify-content: start !important;
+        margin-top: 10px !important;
+    }
+    h1{
+        font-size: 45px;
+    }
+    header span,header p{
+        font-size: 19px;
+    }
+    .contact p , .contact form {
+        width: 100% !important;
+    }
+  
+}
+
+ 
